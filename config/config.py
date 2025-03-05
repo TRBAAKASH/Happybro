@@ -18,17 +18,17 @@ load_dotenv()
 
 # Get it from my.telegram.org
 
-API_ID = int(getenv("API_ID", ""))
+API_ID = int(getenv("24614664", ""))
 
-API_HASH = getenv("API_HASH")
+API_HASH = getenv("a45d425fa87925ac8f7567dd5fdd6c2e")
 
 
 ## Get it from @Botfather in Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN")
+BOT_TOKEN = getenv("7741262031:AAGzib83pHdGympZeYVWaFG-NJVG4gzqlDs")
 
 
 # Database to save your chats and stats... Get MongoDB:-  https://telegra.ph/How-To-get-Mongodb-URI-04-06
-MONGO_DB_URI = getenv("MONGO_DB_URI", None)
+MONGO_DB_URI = getenv("mongodb+srv://vishalpandeynkp:Bal6Y6FZeQeoAoqV@cluster0.dzgwt.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0", None)
 
 
 CLEANMODE_DELETE_MINS = int(
@@ -70,12 +70,12 @@ SONG_DOWNLOAD_DURATION = int(
 
 
 # You'll need a Private Group ID for this.
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1002315394591"))
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1002168126029"))
 
 
 # Your User ID.
 OWNER_ID = list(
-    map(int, getenv("OWNER_ID", "7954204406").split())
+    map(int, getenv("OWNER_ID", "7646751083").split())
 )  # Input type must be interger
 
 
@@ -109,10 +109,10 @@ GIT_TOKEN = getenv(
 
 # Only  Links formats are  accepted for this Var value.
 SUPPORT_CHANNEL = getenv(
-    "SUPPORT_CHANNEL", "https://t.me/FEELING_SMILEY"
+    "SUPPORT_CHANNEL", "https://t.me/akriti_news"
 )  # Example:- https://t.me/+uiz2UFfg0gdlMmRl
 SUPPORT_GROUP = getenv(
-    "SUPPORT_GROUP", "https://t.me/FRIENSHIP_CLUB_GROUP"
+    "SUPPORT_GROUP", "https://t.me/Akriti_love_life"
 )  # Example:- https://t.me/+uiz2UFfg0gdlMmRl
 
 
@@ -179,11 +179,11 @@ SET_CMDS = getenv("SET_CMDS", "True")
 
 
 # You'll need a Pyrogram String Session for these vars. Generate String from our session generator bot @DnsStringBot
-STRING1 = getenv("STRING_SESSION", None)
-STRING2 = getenv("STRING_SESSION2", None)
-STRING3 = getenv("STRING_SESSION3", None)
-STRING4 = getenv("STRING_SESSION4", None)
-STRING5 = getenv("STRING_SESSION5", None)
+STRING1 = getenv("BQF3lwgAmi8BNh7fa3YiphaA09bvVhPgCHSR7fRKtwh2Y93s8iFGnk1J60Ma8Emx4A37htbX9PwXLX4PX4Q_f0J9IiqfIQqa-_CWrKPTkhmjWpTDnbjaY0AkJ-jN3mcrmXjH2p4-2zzRsAuzJ32e1WXnMGhtfSfGfgXIzd94nt1MS9jnOXqEykHneSQPAB-bcyFr6baw6tA0Zldpu-KZKOwljEMe7g9G4uepBuHJ-gMDg2UCigMo7zmuBrCPZnMyIxBSEc6iuuhaAFPI6eHD7RDnGsoOrvJ3eDFpQST908tV6PlCt_YZbr2mDl6srUT-J9mBgCn37z4sHMGPKHRQC_8W7hJ1VAAAAAHHyClrAA", None)
+STRING2 = getenv("BQF3lwgAmi8BNh7fa3YiphaA09bvVhPgCHSR7fRKtwh2Y93s8iFGnk1J60Ma8Emx4A37htbX9PwXLX4PX4Q_f0J9IiqfIQqa-_CWrKPTkhmjWpTDnbjaY0AkJ-jN3mcrmXjH2p4-2zzRsAuzJ32e1WXnMGhtfSfGfgXIzd94nt1MS9jnOXqEykHneSQPAB-bcyFr6baw6tA0Zldpu-KZKOwljEMe7g9G4uepBuHJ-gMDg2UCigMo7zmuBrCPZnMyIxBSEc6iuuhaAFPI6eHD7RDnGsoOrvJ3eDFpQST908tV6PlCt_YZbr2mDl6srUT-J9mBgCn37z4sHMGPKHRQC_8W7hJ1VAAAAAHHyClrAA", None)
+STRING3 = getenv("BQF3lwgAmi8BNh7fa3YiphaA09bvVhPgCHSR7fRKtwh2Y93s8iFGnk1J60Ma8Emx4A37htbX9PwXLX4PX4Q_f0J9IiqfIQqa-_CWrKPTkhmjWpTDnbjaY0AkJ-jN3mcrmXjH2p4-2zzRsAuzJ32e1WXnMGhtfSfGfgXIzd94nt1MS9jnOXqEykHneSQPAB-bcyFr6baw6tA0Zldpu-KZKOwljEMe7g9G4uepBuHJ-gMDg2UCigMo7zmuBrCPZnMyIxBSEc6iuuhaAFPI6eHD7RDnGsoOrvJ3eDFpQST908tV6PlCt_YZbr2mDl6srUT-J9mBgCn37z4sHMGPKHRQC_8W7hJ1VAAAAAHHyClrAA", None)
+STRING4 = getenv("BQF3lwgAmi8BNh7fa3YiphaA09bvVhPgCHSR7fRKtwh2Y93s8iFGnk1J60Ma8Emx4A37htbX9PwXLX4PX4Q_f0J9IiqfIQqa-_CWrKPTkhmjWpTDnbjaY0AkJ-jN3mcrmXjH2p4-2zzRsAuzJ32e1WXnMGhtfSfGfgXIzd94nt1MS9jnOXqEykHneSQPAB-bcyFr6baw6tA0Zldpu-KZKOwljEMe7g9G4uepBuHJ-gMDg2UCigMo7zmuBrCPZnMyIxBSEc6iuuhaAFPI6eHD7RDnGsoOrvJ3eDFpQST908tV6PlCt_YZbr2mDl6srUT-J9mBgCn37z4sHMGPKHRQC_8W7hJ1VAAAAAHHyClrAA", None)
+STRING5 = getenv("BQF3lwgAmi8BNh7fa3YiphaA09bvVhPgCHSR7fRKtwh2Y93s8iFGnk1J60Ma8Emx4A37htbX9PwXLX4PX4Q_f0J9IiqfIQqa-_CWrKPTkhmjWpTDnbjaY0AkJ-jN3mcrmXjH2p4-2zzRsAuzJ32e1WXnMGhtfSfGfgXIzd94nt1MS9jnOXqEykHneSQPAB-bcyFr6baw6tA0Zldpu-KZKOwljEMe7g9G4uepBuHJ-gMDg2UCigMo7zmuBrCPZnMyIxBSEc6iuuhaAFPI6eHD7RDnGsoOrvJ3eDFpQST908tV6PlCt_YZbr2mDl6srUT-J9mBgCn37z4sHMGPKHRQC_8W7hJ1VAAAAAHHyClrAA", None)
 
 
 #  __     ___    _ _  ___  _______   __  __ _    _  _____ _____ _____
